@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/models/news.php';
 $news=[
     [
         'title' => 'Первая новость',
@@ -9,4 +10,5 @@ $news=[
         'text' => 'В лесу она росла',
     ]
 ];
+
 include 'view/index.php';
